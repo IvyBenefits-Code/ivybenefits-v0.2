@@ -11,6 +11,7 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
+    "deploy": "gatsby build && gh-pages -d public -b main --repo https://github.com/IvyBenefits-Code/ivybenefits-v0.2.git",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
